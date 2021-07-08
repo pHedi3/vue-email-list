@@ -8,7 +8,7 @@ var app = new Vue({
         taEmail: []
     },
     created() {
-
+        this.genEmail()
     },
     methods: {
         genEmail: function () {
